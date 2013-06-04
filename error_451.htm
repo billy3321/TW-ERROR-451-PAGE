@@ -66,11 +66,20 @@
         font-family:\5FAE\8EDF\6B63\9ED1\9AD4,Microsoft JhengHei,MingLiU,sans-serif;
     }
     </style>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+    <script type='text/javascript'>
+        jQuery(document).ready(function($){
+                $('#warning_box').fadeIn('medium');
+                $('#link_to_website').click(function(){
+                    $('#warning_box').stop().fadeOut('medium');
+                });
+        });
+    </script>
 </head>
 
 <body>
 <div id="warning_box">
-<p id="warning_title"><img src="warning_451.png" width="30" height="30" /><!----GPL icon By Pavel InFeRnODeMoN - http://www.kde-look.org/usermanager/search.php?username=InFeRnODeMoN----> &nbsp;本網頁基於國家法律而封鎖</p>
+<p id="warning_title"><img src="http://i.imgur.com/6hSzYEB.png" width="30" height="30" /><!----GPL icon By Pavel InFeRnODeMoN - http://www.kde-look.org/usermanager/search.php?username=InFeRnODeMoN----> &nbsp;本網頁基於國家法律而封鎖</p>
 <p id="error_code">ERROR 451</p>
 <p class="warning_paragraph">為何看到這個畫面？</p>
 <p class="warning_paragraph">針對中華民國經濟部智慧財產局（以下簡稱智財局）日前發布新聞稿，稱將研議相關法案，針對境外重大侵權網站，擬建立快速處置措施，令網路服務提供者（ISP）予以封鎖乙事，本網站表示強烈反對。並呼籲政府相關單位停止討論任何類似美國SOPA的法案，以維護資訊流通與祕密通訊自由。如果我們不積極爭取，有一天，可能將會真的看到類似如此的 <a href="http://binb.tw/?p=407" target="_blank">ERROR 451</a> 錯誤。</p>
